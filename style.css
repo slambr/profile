@@ -1,0 +1,110 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #FFF5E4;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9E7676;
+  font-size: 14px;
+  line-height: normal;
+  text-decoration: none;
+}
+
+button {
+  color: #DEF5E5;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border-radius: 4px;
+  height: 25 px;
+  width: auto;
+  padding: 3px;
+}
+
+a {
+  color: #850E35
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+.first-link {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #850E35;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: normal;
+  text-align: center;
+}
+
+a:hover {
+  color: #850E35;
+  text-decoration: none;
+}
+
+a.visited {
+  color: #850E35;
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+.card {
+  background: #FFE1E1;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 4px 3px #B2B2B2 ;
+}
